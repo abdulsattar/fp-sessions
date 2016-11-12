@@ -19,3 +19,6 @@
 7. Create a list of functions: `list :: [(Int -> Int)]`. Put whatever functions you need.
 8. Map over the above list so that the resultant list contains all functions that return `double` the value of their counterparts in the earlier list.
 9. Apply composition over all the elements in the above list and return one function.
+
+##Day 6
+Implement Cycle Rental: write functions for listing all cycles, renting a cycle, returning a cycle and paying the rental price which is number of days taken for rent times the rent per day of the cycle taken on rent.
