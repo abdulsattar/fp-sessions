@@ -22,3 +22,7 @@
 
 ##Day 6
 Implement Cycle Rental: write functions for listing all cycles, renting a cycle, returning a cycle and paying the rental price which is number of days taken for rent times the rent per day of the cycle taken on rent.
+
+##Day 8
+1. Write an `Identity` typeclass. It should have an `ident` function that takes a value and gives it back.
+2. Is `Identity` a functor? If yes, create an instance of `Functor` for it.
