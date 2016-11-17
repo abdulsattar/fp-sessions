@@ -26,3 +26,5 @@ Implement Cycle Rental: write functions for listing all cycles, renting a cycle,
 ##Day 8
 1. Write an `Identity` typeclass. It should have an `ident` function that takes a value and gives it back.
 2. Is `Identity` a functor? If yes, create an instance of `Functor` for it.
+3. Implement `Functor` for `BinaryTree` that we wroter earlier.
+4. Write a function `duration` that takes a `Rental` that we defined in the cycle store problem and returns a `Maybe Int`. It should return `Nothing` if `endDate` is `Nothing` else it should return a value. Use `fmap` for writing this.
