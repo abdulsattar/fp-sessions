@@ -1,3 +1,10 @@
+case Just a -> Just (id a)
+     Nothing -> Null
+
+fmap id (Just 1)
+
+module List where
+
 data List a = Empty | Cons a (List a) deriving (Show)
 
 instance Functor List where
